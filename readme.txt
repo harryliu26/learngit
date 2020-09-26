@@ -4,3 +4,6 @@ all the systems 只能跟踪文本文件的修改，记录文件的详细修改�
 window不建议使用world，因为二进制
 自带笔记本也不行，笔记本会自带一个十六进制字符，坑爹
 git is free software
+
+git is the best thing in the world
+hhh
