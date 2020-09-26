@@ -7,3 +7,6 @@ git is free software
 
 git is not the best thing in the world
 hhh
+
+git tracks changes
+
