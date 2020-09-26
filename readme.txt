@@ -5,5 +5,5 @@ window不建议使用world，因为二进制
 自带笔记本也不行，笔记本会自带一个十六进制字符，坑爹
 git is free software
 
-git is the best thing in the world
+git is not the best thing in the world
 hhh
