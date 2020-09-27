@@ -10,4 +10,4 @@ hhh
 
 git tracks changes of files
 adf
-Creating a new branch is quick B simple 
+Creating a new branch is quick and simple 
