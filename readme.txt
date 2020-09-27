@@ -9,4 +9,5 @@ git is not the best thing in the world
 hhh
 
 git tracks changes of files
-adf 
+adf
+Creating a new branch is quick AND simple 
