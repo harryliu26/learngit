@@ -56,6 +56,7 @@ git cherry-pick commit_id
 
 git remote
 git remote -v
+git remote set -url origin gitaddress
 git push origin master
 git push origin dev
 
