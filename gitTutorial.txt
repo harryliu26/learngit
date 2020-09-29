@@ -1,0 +1,67 @@
+git init
+
+git add filename
+git commit -m "message"
+
+git status
+git log    查看提交历史
+git reflog 查看命令历史
+git diff
+HEAD指向当前版本
+
+git reset --hard HEAD^/HEAD~100
+git checkout -- file 丢弃工作区修改
+git reset HEAD file 将暂存区想要丢弃的修改撤离到工作区，然后按上一行丢弃
+
+git rm file/手动删除文件，删除后记得add并且commit
+
+
+从本地推送仓库到远程仓库
+ssh-keygen -t sra -C "emailaddress"
+github empty repository
+add public sshkey on github
+git remote add origin git@hithub...../learngit.git
+git push -u origin master
+
+
+从远程仓库克隆
+ssh-keygen -t sra -C "emailaddress"
+add public sshkey on github
+create and enter the document you want to be the repository
+git clone git@hithub...../learngit.git
+
+git checkout -b dev git switch -c dev
+git branch dev
+git branch
+git checkout dev  git switch dev
+git branch -d dev
+git branch -D dev 强制删除
+
+git merge dev 
+git merge --no-ff -m "modify ..." dev
+git log --graph可以看到分支合并图
+
+当git无法自动合并时，必须先解决冲突，解决完冲突后在提交合并
+解决冲突就是把git合并失败的文件手动编辑成我们希望的内容然后再提交。
+
+临时保存工作内容
+git stash
+查看stash列表
+git stash list
+复原工作内容
+git stash pop
+
+cherry-pick 复制特定提交到想要的分支上
+git cherry-pick commit_id
+
+git remote
+git remote -v
+git push origin master
+git push origin dev
+
+git rebase
+
+git tag v1.0
+git tag -d v1.0
+
+git push origin v1.0
